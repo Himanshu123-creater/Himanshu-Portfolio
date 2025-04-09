@@ -1,0 +1,375 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.sidebar {
+    position: absolute;
+    background-color: rgb(177, 172, 172);
+    width: 250px;
+    font-family: "Inter", sans-serif;
+    height: 100vh;
+    transition: transform 0.5s ease-in;
+    ;
+}
+
+.sidebar nav {
+    padding: 25px;
+}
+
+.sidebar nav li {
+    list-style: none;
+    font-size: 30px;
+    padding: 15px 0;
+
+}
+
+.sidebar nav li a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+.main {
+    background-color: rgb(255, 255, 255);
+    width: 100vw;
+    height: 587px;
+}
+
+.mains {
+    background-color: rgb(255, 255, 255);
+    width: 100vw;
+    height: 2300px;
+}
+
+.container {
+    display: flex;
+}
+
+.infocontainer {
+    background-color: rgb(255, 255, 255);
+    height: 60vh;
+    width: 75vw;
+    margin: 100px auto;
+    display: flex;
+    justify-content: space-around;
+    font-family: "Inter", sans-serif;
+}
+
+.infocontainerr {
+    background-color: rgb(255, 255, 255);
+    height: 60vh;
+    width: 75vw;
+    margin: 50px auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.courcesinfo{
+    color: rgb(0, 0, 0);
+}
+
+
+.devinfo {
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-family: "Source Code Pro", monospace;
+    color: rgb(0, 0, 0);
+}
+
+.hello {
+    font-size: 3em;
+}
+
+.name {
+    font-size: 3em;
+    font-weight: bold;
+    font-family: "Inter", sans-serif;
+}
+
+.about {
+    font-size: 2.5em;
+}
+
+.moreabout {
+    font-size: 2em;
+    margin-top: 23px;
+    font-family: "Inter", sans-serif;
+}
+
+.buttons {
+    margin-top: 2.2em;
+    margin: 10px;
+}
+
+.btn {
+    padding: 9px 14px;
+    border-radius: 150px;
+    color: rgb(255, 255, 255);
+    background-color: dodgerblue;
+    font-weight: bold;
+    font-size: 15px;
+    margin: 2px 3px;
+    cursor: pointer;
+}
+
+.btn-sm {
+    font-size: 15px;
+    padding: 10px 19px;
+    margin: 12px 0;
+}
+
+.btn:hover {
+    background-color: white;
+    color: dodgerblue;
+}
+
+.devpic img {
+    height: 60vh;
+}
+
+.contactform {
+    padding: 0 34px;
+    padding-top: 100px;
+    font-family: "Inter", sans-serif;
+    margin: 0 100px;
+}
+
+.blogcontainer{
+    margin: 20px 100px;
+}
+
+.contactform h1 {
+    font-family: "Source Code Pro", monospace;
+    text-align: center;
+    padding: 12px 0;
+    font-size: 45px;
+    color: rgb(0, 0, 0);
+}
+
+.contactform form div {
+    padding: 10px 0;
+    display: flex;
+    flex-direction: column;
+    color: rgb(0, 0, 0);
+}
+
+.contactform form div input {
+    width: 26vw;
+    border-radius: 5px;
+    margin: 6px 0 0;
+    padding: 3px;
+
+}
+
+
+#emailHelp {
+    font-size: 10px;
+    color: midnightblue;
+    margin: 0 5px;
+}
+
+#form-check {
+    flex-direction: row;
+}
+
+#form-check input {
+    width: 30px;
+    margin: 3px 0;
+}
+
+.blogitem {
+    margin: 20px;
+    font-family: "Inter", sans-serif;
+    color: rgb(0, 0, 0);
+}
+
+.blogcontainer h1 {
+    font-family: "Source Code Pro", monospace;
+    text-align: center;
+    font-size: 45px;
+    color: rgb(0, 0, 0);
+}
+
+.blogitem h2 {
+    font-weight: inherit;
+    font-size: 30px;
+}
+
+.blogitem h3 {
+    font-weight: inherit;
+    font-size: 30px;
+}
+
+.blogitem h4 {
+    font-weight: inherit;
+    font-size: 30px;
+}
+
+.blogitem h5 {
+    font-weight: inherit;
+    font-size: 30px;
+}
+
+.blogitem h6 {
+    font-weight: inherit;
+    font-size: 30px;
+}
+
+.blogitem h7 {
+    font-weight: inherit;
+    font-size: 30px;
+}
+
+.blogitem h8 {
+    font-weight: inherit;
+    font-size: 20px;
+}
+
+.blogitem h9 {
+    font-weight: inherit;
+    font-size: 20px;
+}
+
+.blogitem h10 {
+    font-weight: inherit;
+    font-size: 30px;
+}
+
+.blogitem h11 {
+    font-weight: inherit;
+    font-size: 30px;
+}
+
+.blogitem h12 {
+    font-weight: inherit;
+    font-size: 30px;
+}
+
+.blogitem h13 {
+    font-weight: inherit;
+    font-size: 30px;
+}
+
+.blogitem h14 {
+    font-weight: inherit;
+    font-size: 30px;
+}
+
+.blogitem h15 {
+    font-weight: inherit;
+    font-size: 50px;
+    text-align: center;
+    font-family: "Source Code Pro", monospace;
+}
+
+.blogitem h16 {
+    font-weight: inherit;
+    font-size: 20px;
+}
+
+.blogitem h17 {
+    font-weight: inherit;
+    font-size: 20px;
+}
+
+.blogitem p {}
+
+.sidebars {
+    background-color: rgb(177, 172, 172);
+    width: 300px;
+    font-family: "Inter", sans-serif;
+    height: 400vh;
+    transition: transform 0.5s ease-in;
+    ;
+}
+
+.sidebars nav {
+    padding: 25px;
+}
+
+.sidebars nav li {
+    list-style: none;
+    font-size: 30px;
+    padding: 15px 0;
+
+}
+
+.sidebars nav li a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+.sidebargos {
+    transform: translate(-400px, 0);
+    position: absolute;
+}
+
+.sidebargo {
+    transform: translate(-400px, 0);
+    position: absolute;
+}
+
+.hamburger {
+    position: absolute;
+    cursor: pointer;
+    left: 10px;
+}
+
+.ham{
+    margin-top: 5px;
+    margin-left: 5px;
+}
+.cross {
+    margin-left: 200px;
+    margin-top: 15px;
+    top: 25px;
+}
+
+@media (max-width:900px) {
+    * {
+        /*background-color: rgb(245, 171, 171);*/
+    }
+
+    .devinfo{
+        font-size: 12px;
+    }
+
+    .devpic{
+        display: none;
+    }
+
+    /*.sidebar{
+        transform: translate(-400px, 0);
+        position: absolute;
+    }*/
+}
+
+.blogcontainer{
+    margin: 8px;
+}
+
+.courcesinfo h2{
+    font-size: 50px;
+    margin-top: -25px;
+
+}
+
+.courcesinfo h3{
+
+    font-size: 30px;
+    margin-top: -40px;
+}
+
+.contactform{
+    margin: 80px;
+}
+
+.contactform h1{
+    margin-top: -120px;
+    margin-bottom: 23px;
+}
